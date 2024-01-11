@@ -1,9 +1,10 @@
 //your JS code here. If required.
 let x=prompt();
 
-function functionName(x){
-	alert(x);
+function functionName(){
+	// alert(x);
+	alert(arguments.callee.name);
 }
 
-functionName(x);
+functionName();
 
